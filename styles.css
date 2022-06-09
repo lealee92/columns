@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  margin: 0 auto;
+}
+
+.main-container {
+  min-width: 70%;
+  margin-top: 3em;
+}
+
+img {
+  width: 25%;
+}
+p {
+  color: white;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+h2 {
+  color: white;
+  padding-top: 1em;
+}
+
+.col-1 {
+  background-color: hsl(31, 77%, 52%);
+  padding: 2em;
+}
+
+.col-2 {
+  background-color: hsl(184, 100%, 22%);
+  padding: 2em;
+}
+
+.col-3 {
+  background-color: hsl(179, 100%, 13%);
+  padding: 2em;
+}
+
+button {
+  border-radius: 20px;
+  background-color: white;
+  width: 120px;
+  height: 40px;
+  text-decoration: none;
+  margin-top: 3em;
+  cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  .main-container {
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 5em;
+  }
+  .even-columns {
+    display: flex;
+  }
+}
+
+/* footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
