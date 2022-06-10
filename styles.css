@@ -1,5 +1,5 @@
 img {
-  width: 25%;
+  width: 5rem;
 }
 p {
   color: white;
@@ -29,32 +29,38 @@ h2 {
 button {
   border-radius: 20px;
   background-color: white;
-  width: 20vw;
-  min-height: 8vw;
+  width: 100px;
+  padding: 15px;
   border: none;
   text-decoration: none;
   cursor: pointer;
 }
 
 button:hover {
-  border: solid 2px red;
-  color: black;
+  width: 100px;
+  padding: 15px;
+  opacity: 0.5;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1400px) {
   .main-container {
-    max-width: 80%;
-    margin: 10%;
+    width: 1400px;
+    margin: 150px auto;
+    display: flex;
   }
+
   .even-columns {
     display: flex;
   }
+
   button {
     border-radius: 20px;
     background-color: white;
-    max-width: 10vw;
-    min-height: 2.5vw;
+    width: 100px;
+    padding: 15px;
     border: none;
+    text-decoration: none;
+    cursor: pointer;
   }
 }
 
